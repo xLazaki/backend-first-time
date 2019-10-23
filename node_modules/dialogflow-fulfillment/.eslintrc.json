@@ -1,0 +1,12 @@
+{
+    "extends": "google",
+    "parserOptions": {
+       "ecmaVersion": 8,
+       "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "max-len": ["error", 120]
+    }
+}
